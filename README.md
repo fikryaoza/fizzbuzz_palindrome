@@ -50,7 +50,7 @@ Step Install
 ```http
   POST /fizzbuzz
 ```
-Body Request :
+Body Request (JSON):
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `length` | `number` | **Required**. Length Data to be generated |
@@ -61,7 +61,7 @@ Body Request :
 ```http
   POST /palindrome
 ```
-Body Request :
+Body Request (JSON) :
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `keyword`      | `string` | **Required**. Word / Sentence to be checked |
