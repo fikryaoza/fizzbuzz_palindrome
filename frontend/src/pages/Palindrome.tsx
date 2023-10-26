@@ -30,7 +30,7 @@ const Palindrome: React.FunctionComponent = () => {
     setErrMessage("");
     setShowAlert(false);
     axios
-      .post(`http://178.128.54.119:3000/palindrome`, {
+      .post(`http://localhost:3000/palindrome`, {
         keyword: lengthData,
       })
       .then((res) => {

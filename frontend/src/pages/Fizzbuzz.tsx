@@ -30,7 +30,7 @@ const Fizzbuzz: React.FunctionComponent = () => {
     setErrMessage("");
     setShowAlert(false);
     axios
-      .post(`http://178.128.54.119:3000/fizzbuzz`, {
+      .post(`http://localhost:3000/fizzbuzz`, {
         length: parseInt(lengthData),
       })
       .then((res) => {
